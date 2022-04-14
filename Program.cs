@@ -8,7 +8,14 @@ namespace Pr1
 {
     internal class Program
     {
-        
+        static void Main(string[] args)
+        {
+            Firma tom = new Firma ();
+            tom.Name = "РосНефть";
+            tom.Year_of_since = 1999;
+            tom.Adress = "Октябрьская";
+            tom.Print();
+        }
 
     }
     class Firma
