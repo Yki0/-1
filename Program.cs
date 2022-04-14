@@ -17,6 +17,11 @@ namespace Pr1
         public string Adress { get; set; }
         public int   Year_of_since { get; set; }
 
-        
+        public void Print()
+        {
+            Console.WriteLine($"Назвавние: {Name}  Дата основания: {Year_of_since} Дата основания: {Adress} ");
+
+            Console.ReadLine();
+        }
     }
 }
