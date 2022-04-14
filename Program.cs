@@ -8,8 +8,15 @@ namespace Pr1
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
-        }
+        
+
+    }
+    class Firma
+    {
+        public string Name { get; set; }
+        public string Adress { get; set; }
+        public int   Year_of_since { get; set; }
+
+        
     }
 }
